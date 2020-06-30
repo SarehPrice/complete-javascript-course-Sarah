@@ -205,20 +205,51 @@ GOOD LUCK 😀
 
 //Functions
 
-function calculateAge(birthYear) {
-	return 2018 - birthYear;
-}
+// function calculateAge(birthYear) {
+// 	return 2018 - birthYear;
+// }
 
-var ageJeremy = calculateAge(1990);
-var ageSusan = calculateAge(1970);
-var ageSarah = calculateAge(1960);
+// var ageJeremy = calculateAge(1990);
+// var ageSusan = calculateAge(1970);
+// var ageSarah = calculateAge(1960);
 
-console.log(ageJeremy, ageSarah, ageSusan);
+// console.log(ageJeremy, ageSarah, ageSusan);
 
-function yearsUntilRetirement(year, firstName) {
-	var age = calculateAge(year);
-	var retirement = 65 - age;
-	console.log(firstName + 'retires in' + retirement + 'years');
-}
+// function yearsUntilRetirement(year, firstName) {
+// 	var age = calculateAge(year);
+// 	var retirement = 65 - age;
 
-yearsUntilRetirement(1990, 'John');
+// 	if(retirement > 0){
+// 	console.log(firstName + 'retires in' + retirement + 'years');
+// 	} else {
+// 		console.log(`firstName is already retired.`)
+// 	}
+// }
+
+// yearsUntilRetirement(1990, 'John');
+// yearsUntilRetirement(1970, 'Susan');
+// yearsUntilRetirement(1960, 'Sarah');
+
+// function whatDoYouDo(job, firstName){}
+
+//function expression
+
+// var whatDoYouDo = function(job, firstName){
+//  switch(job) {
+// 	 case 'teacher':
+// 		 return firstName + ' teaches kids how to code';
+// 	 case 'driver':
+// 		 return firstName + ' drives a cab in lisbon';
+// 	 case 'designer':
+// 		 return firstName + ' designs beautiful websites';
+// 	 default:
+// 		 return firstName + ' does something else';
+//  }
+// }
+
+// console.log(whatDoYouDo('teacher', 'Amy'));
+// console.log(whatDoYouDo('designer', 'Jane'));
+// console.log(whatDoYouDo('retired', 'Mark'));
+
+//arrays
+
