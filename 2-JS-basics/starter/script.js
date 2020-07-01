@@ -253,3 +253,31 @@ GOOD LUCK 😀
 
 //arrays
 
+//make new array
+// var names = ['Amy', 'Mark', 'Jane'];
+// var years = new Array(1990, 1969, 1948);
+
+// console.log(names);
+// console.log(names.length);
+
+// //mutated array data
+// names[1] = 'Ben';
+// names[names.length] = 'Mary';
+// console.log(names);
+
+//different data types
+// var Ben = ['Ben', 'Smith', 1990, 'designer', 'false'];
+
+// Ben.push('blue');
+// Ben.unshift('Mr.');
+// console.log(Ben);
+
+// Ben.pop()
+// Ben.pop()
+// Ben.shift();
+// console.log(Ben);
+
+// console.log(Ben.indexOf(23));
+
+// var isDesigner = Ben.indexOf('designer') === -1 ? 'Ben is NOT a designer' : 'Ben IS a designer';
+// console.log(isDesigner);
