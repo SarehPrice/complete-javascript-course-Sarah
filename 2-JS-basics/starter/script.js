@@ -282,26 +282,48 @@ GOOD LUCK 😀
 // var isDesigner = Ben.indexOf('designer') === -1 ? 'Ben is NOT a designer' : 'Ben IS a designer';
 // console.log(isDesigner);
 
-function tipCalculator(bill) {
-	var percentage;
-	if (bill < 50) {
-		percentage = .2;
-	} else if (bill >= 50 && bill < 200) {
-		percentage = .15;
-	} else {
-		percentage = .1;
-	}
-	return percentage * bill;
-}
+// function tipCalculator(bill) {
+// 	var percentage;
+// 	if (bill < 50) {
+// 		percentage = .2;
+// 	} else if (bill >= 50 && bill < 200) {
+// 		percentage = .15;
+// 	} else {
+// 		percentage = .1;
+// 	}
+// 	return percentage * bill;
+// }
 
-var bills = [124, 48, 268];
-var tips = [tipCalculator(bills[0]), tipCalculator(bills[1]), tipCalculator(bills[2]);
-var finalValues = [bills[0] + tips[0], bills[1] + tips[1],bills[2] + tips[2]];
+// var bills = [124, 48, 268];
+// var tips = [tipCalculator(bills[0]), tipCalculator(bills[1]), tipCalculator(bills[2]);
+// var finalValues = [bills[0] + tips[0], bills[1] + tips[1],bills[2] + tips[2]];
 
-console.log(tips, finalValues);
+// console.log(tips, finalValues);
 
+//Objects + Properties 
 
+var sally = {
+	firstName: "Sally",
+	lastName: 'Smith',
+	birthYear: 1990,
+	family: ['Jane', 'Mark', 'Emma', 'Emily'],
+	job: 'teacher',
+	isMarried: false
+};
 
+console.log(sally.firstName);
+console.log(sally['lastName']);
+var x = 'birthYear';
+console.log(sally[x]);
 
+sally.job = 'designer';
+sally['isMarried'] = true;
+console.log(sally);
+
+var jane = new Object();
+jane.name = "Jane";
+jane.birthYear = 1998;
+jane['lastName'] = 'Smith';
+console.log(jane);
 
 
