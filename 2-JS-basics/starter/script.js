@@ -302,28 +302,71 @@ GOOD LUCK 😀
 
 //Objects + Properties 
 
-var sally = {
-	firstName: "Sally",
-	lastName: 'Smith',
-	birthYear: 1990,
-	family: ['Jane', 'Mark', 'Emma', 'Emily'],
-	job: 'teacher',
-	isMarried: false
-};
+// var sally = {
+// 	firstName: "Sally",
+// 	lastName: 'Smith',
+// 	birthYear: 1990,
+// 	family: ['Jane', 'Mark', 'Emma', 'Emily'],
+// 	job: 'teacher',
+// 	isMarried: false
+// };
 
-console.log(sally.firstName);
-console.log(sally['lastName']);
-var x = 'birthYear';
-console.log(sally[x]);
+// console.log(sally.firstName);
+// console.log(sally['lastName']);
+// var x = 'birthYear';
+// console.log(sally[x]);
 
-sally.job = 'designer';
-sally['isMarried'] = true;
-console.log(sally);
+// sally.job = 'designer';
+// sally['isMarried'] = true;
+// console.log(sally);
 
-var jane = new Object();
-jane.name = "Jane";
-jane.birthYear = 1998;
-jane['lastName'] = 'Smith';
-console.log(jane);
+// var jane = new Object();
+// jane.name = "Jane";
+// jane.birthYear = 1998;
+// jane['lastName'] = 'Smith';
+// console.log(jane);
 
+// var sally = {
+// 	firstName: "Sally",
+// 	lastName: 'Smith',
+// 	birthYear: 1992,
+// 	family: ['Jane', 'Mark', 'Emma', 'Emily'],
+// 	job: 'teacher',
+// 	isMarried: false,
+// 	calcAge: function() {
+// 		this.age = 2020 - this.birthYear;
+// 	}
+// };
 
+// sally.age = sally.calcAge();
+// console.log(sally);
+
+// var sally = {
+// 	fullName: 'Sally Smith',
+// 	mass: 92,
+// 	height: 1.95,
+// 	calcBMI: function() {
+// 		this.bmi = this.mass / (this.height * this.height);
+// 		return this.bmi;
+// 	}
+// }
+
+// var susan = {
+// 	fullName: 'Susan Lily',
+// 	mass: 78,
+// 	height: 1.69,
+// 	calcBMI: function() {
+// 		this.bmi = this.mass / (this.height * this.height);
+// 		return this.bmi;
+// 	}
+// }
+
+// if (sally.calcBMI() > susan.calcBMI()) {
+// 	console.log(sally.fullName + 'has a higher BMI of ' + sally.bmi);
+// } else if (susan.bmi > sally.bmi) {
+// 	console.log(susan.fullName + 'has a higher BMI of ' + susan.bmi);
+// } else {
+// 	console.log('They have the same BMI');
+// }
+
+//loops
