@@ -370,3 +370,15 @@ GOOD LUCK 😀
 // }
 
 //loops
+
+for (var i = 0; i < 10; i++) {
+	console.log(i);
+}
+
+//i = 0, 0 < 10 true, log i to console,i++
+// i = 1, 1, 20 true, log i  to the console, i++
+
+var ben = ['Ben', 'Smith', 1990, 'designer', 'false'];
+for (var i = 0; i < ben.length; i++) {
+	console.log(ben[i]);
+}
