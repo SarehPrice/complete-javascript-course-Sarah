@@ -392,18 +392,19 @@ GOOD LUCK 😀
 // }
 
 //continue and break 
-var ben = ['Ben', 'Smith', 1990, 'designer', 'false', 'blue'];
-for (var i = 0; i < ben.length; i++) {
-	if (typeof ben[i] !== 'string') continue;
-	console.log(ben[i]);
-}
+// var ben = ['Ben', 'Smith', 1990, 'designer', 'false', 'blue'];
+// for (var i = 0; i < ben.length; i++) {
+// 	if (typeof ben[i] !== 'string') continue;
+// 	console.log(ben[i]);
+// }
 
-for (var i = 0; i < ben.length; i++) {
-	if (typeof ben[i] !== 'string') break;
-	console.log(ben[i]);
-}
+// for (var i = 0; i < ben.length; i++) {
+// 	if (typeof ben[i] !== 'string') break;
+// 	console.log(ben[i]);
+// }
 
-for (var i = ben.length - 1; i >= 0; i--) {
-	console.log(ben[i]);
-}
+// for (var i = ben.length - 1; i >= 0; i--) {
+// 	console.log(ben[i]);
+// }
 
+//coding challenge 5
