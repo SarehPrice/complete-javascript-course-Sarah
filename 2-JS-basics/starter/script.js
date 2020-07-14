@@ -371,14 +371,39 @@ GOOD LUCK 😀
 
 //loops
 
-for (var i = 0; i < 10; i++) {
-	console.log(i);
-}
+// for (var i = 0; i < 10; i++) {
+// 	console.log(i);
+// }
 
-//i = 0, 0 < 10 true, log i to console,i++
-// i = 1, 1, 20 true, log i  to the console, i++
+// //i = 0, 0 < 10 true, log i to console,i++
+// // i = 1, 1, 20 true, log i  to the console, i++
 
-var ben = ['Ben', 'Smith', 1990, 'designer', 'false'];
+//for loop
+// var ben = ['Ben', 'Smith', 1990, 'designer', 'false'];
+// for (var i = 0; i < ben.length; i++) {
+// 	console.log(ben[i]);
+// }
+
+// //while loop
+// var i = 0;
+// while(i < ben.length) {
+// 	console.log(ben[i]);
+// 	i++;
+// }
+
+//continue and break 
+var ben = ['Ben', 'Smith', 1990, 'designer', 'false', 'blue'];
 for (var i = 0; i < ben.length; i++) {
+	if (typeof ben[i] !== 'string') continue;
 	console.log(ben[i]);
 }
+
+for (var i = 0; i < ben.length; i++) {
+	if (typeof ben[i] !== 'string') break;
+	console.log(ben[i]);
+}
+
+for (var i = ben.length - 1; i >= 0; i--) {
+	console.log(ben[i]);
+}
+
